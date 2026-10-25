@@ -1,0 +1,5 @@
+{
+  "compilerOptions": { "strict": true, "module": "CommonJS", "target": "ES2022", "outDir": "dist" }
+}
+
+// pr-168 touch
