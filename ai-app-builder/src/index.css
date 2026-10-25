@@ -1,0 +1,5 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+
+// pr-063 touch
