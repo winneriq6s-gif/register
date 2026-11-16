@@ -19,3 +19,4 @@ node index.js
 ```
 node send.js recipient@example.com "Subject" "Body text"
 ```
+Service update
