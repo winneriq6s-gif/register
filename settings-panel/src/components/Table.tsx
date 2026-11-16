@@ -1,0 +1,26 @@
+import React from "react";
+
+export interface TableProps {
+  title?: string;
+  onAction?: () => void;
+}
+
+export const Table: React.FC<TableProps> = ({ title = "Table", onAction }) => {
+  return (
+    <section className="table-container" aria-label={title}>
+      <header className="table-header">
+        <h2>{title}</h2>
+      </header>
+      <div className="table-body">
+        <p>Content for Table in settings-panel.</p>
+      </div>
+      {onAction && (
+        <button type="button" onClick={onAction}>
+          Action
+        </button>
+      )}
+    </section>
+  );
+};
+
+export default Table;

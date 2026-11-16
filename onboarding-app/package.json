@@ -1,0 +1,7 @@
+{
+  "name": "onboarding-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "dev": "vite", "build": "tsc && vite build", "test": "vitest" },
+  "dependencies": { "react": "^18.3.0", "react-dom": "^18.3.0" }
+}

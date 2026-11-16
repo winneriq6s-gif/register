@@ -1,0 +1,14 @@
+{
+  "name": "smtp-app",
+  "version": "1.0.0",
+  "description": "SMTP email sending app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "send": "node send.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.0",
+    "dotenv": "^16.4.0"
+  }
+}
